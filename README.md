@@ -1,5 +1,6 @@
 ## 安装插件
 npm install qrcodejs2 -S
+
 npm install vue-print-nb -S
 
 # 项目介绍
