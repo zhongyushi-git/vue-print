@@ -1,8 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router'
+import Print from 'vue-print-nb'
 
-Vue.config.productionTip = false
+Vue.use(Print);
 
 new Vue({
-  render: h => h(App),
+  router,
+  render: h => h(App)
 }).$mount('#app')
+
+

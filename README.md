@@ -1,19 +1,8 @@
-# vue-print
+## 安装插件
+npm install qrcodejs2 -S
+npm install vue-print-nb -S
 
-## Project setup
-```
-npm install
-```
+# 项目介绍
+vue实现二维码的生成与打印功能，然后使用jenkins进行部署
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
